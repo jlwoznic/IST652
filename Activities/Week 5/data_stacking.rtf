@@ -1,0 +1,110 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf610
+{\fonttbl\f0\fmodern\fcharset0 CourierNewPS-BoldMT;\f1\fmodern\fcharset0 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww22820\viewh16140\viewkind1\viewscale169
+\deftab720
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0\b\fs36 \cf0 Week 5-3 - Data Stacking and Unstacking\
+\
+Sometimes a need to change how we look at a table of data\
+
+\fs24 \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f1\b0 \cf0 persondict = \{'person':['Bob','Alice','Steve'],'age':[32,24,64],'weight':[128,86,95]\}\
+\
+\
+There are packages and spreadsheets that support this data transformation, such as miniTab and Excel.  In pandas, we can use the stack, unstack, and pivot functions.\
+\
+An important point about this data transformation is that it changes the unit of analysis.  \
+\
+Let's look at an example.\
+\
+>>> import pandas as pd\
+>>> persondict = \{'person':['Bob','Alice','Steve'], 'age':[32, 24, 64], 'weight':[128, 86, 95]\}\
+>>> persontable = pd.DataFrame(persondict, columns=['person','age','weight'])\
+>>> persontable\
+  person  age  weight\
+0    Bob   32     128\
+1  Alice   24      86\
+2  Steve   64      95\
+\
+We use the person column as the index to the table, and now we have the wide format.\
+>>> persontable = persontable.set_index('person')\
+>>> persontable\
+        age  weight\
+person             \
+Bob      32     128\
+Alice    24      86\
+Steve    64      95\
+>>> persontable.shape\
+(3, 2)\
+>>> persontable.dtypes\
+age       int64\
+weight    int64\
+dtype: object\
+\
+The pandas \'93stack\'94 function makes this into a tall object; in fact, it is a series of all the values from the table with a multi-index showing the row and column.\
+\
+>>> result = persontable.stack()\
+>>> result\
+person        \
+Bob     age        32\
+        weight    128\
+Alice   age        24\
+        weight     86\
+Steve   age        64\
+        weight     95\
+dtype: int64\
+>>> result.shape\
+(6,)\
+>>> result.index\
+MultiIndex(levels=[['Bob', 'Alice', 'Steve'], ['age', 'weight']],\
+           labels=[[0, 0, 1, 1, 2, 2], [0, 1, 0, 1, 0, 1]],\
+           names=['person', None])\
+\
+The pandas reset_index() function takes a multi-index series and converts it to a DataFrame, where the index labels are put into columns.\
+\
+>>> persontall = result.reset_index()\
+>>> persontall\
+  person level_1    0\
+0    Bob     age   32\
+1    Bob  weight  128\
+2  Alice     age   24\
+3  Alice  weight   86\
+4  Steve     age   64\
+5  Steve  weight   95\
+\
+We rename the columns to make more sense, giving the \'93tall\'94 version of the data.\
+>>> persontall.columns=['person','attribute','value']\
+>>> persontall\
+  person attribute  value\
+0    Bob       age     32\
+1    Bob    weight    128\
+2  Alice       age     24\
+3  Alice    weight     86\
+4  Steve       age     64\
+5  Steve    weight     95\
+\
+If we wanted to convert back to a wide format, we would need to use the version in the variable \'93result\'94 that was directly obtained from stack().\
+\
+>>> result.unstack()\
+        age  weight\
+person             \
+Bob      32     128\
+Alice    24      86\
+Steve    64      95\
+\
+And if we wanted to convert to wide format from the tall format, pandas has a pivot function that will do that.\
+\
+>>> persontall.pivot('person','attribute','value')\
+attribute  age  weight\
+person                \
+Alice       24      86\
+Bob         32     128\
+Steve       64      95\
+\
+\
+}

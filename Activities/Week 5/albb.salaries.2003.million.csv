@@ -1,0 +1,166 @@
+Player,Team,Salary
+"Clemens, Roger",New York Yankees,10100000
+"Contreras, Jose",New York Yankees,5500000
+"Giambi, Jason",New York Yankees,11428571
+"Hammond, Chris",New York Yankees,2200000
+"Hitchcock, Sterling",New York Yankees,6000000
+"Jeter, Derek",New York Yankees,15600000
+"Karsay, Steve",New York Yankees,5000000
+"Matsui, Hideki",New York Yankees,6000000
+"Mondesi, Raul",New York Yankees,13000000
+"Mussina, Mike",New York Yankees,12000000
+"Osuna, Antonio",New York Yankees,2400000
+"Pettitte, Andy",New York Yankees,11500000
+"Posada, Jorge",New York Yankees,8000000
+"Rivera, Mariano",New York Yankees,10500000
+"Trammell, Bubba",New York Yankees,2500000
+"Ventura, Robin",New York Yankees,5000000
+"Weaver, Jeff",New York Yankees,4150000
+"Wells, David",New York Yankees,3250000
+"Williams, Bernie",New York Yankees,12357143
+"Zeile, Todd",New York Yankees,1500000
+"Anderson, Garret",Anaheim Angels,5350000
+"Appier, Kevin",Anaheim Angels,11500000
+"Erstad, Darin",Anaheim Angels,7250000
+"Glaus, Troy",Anaheim Angels,7250000
+"Kennedy, Adam",Anaheim Angels,2270000
+"Molina, Benjie",Anaheim Angels,1425000
+"Ortiz, Ramon",Anaheim Angels,2266667
+"Percival, Troy",Anaheim Angels,7833333
+"Salmon, Tim",Anaheim Angels,9900000
+"Schoeneweis, Scott",Anaheim Angels,1425000
+"Sele, Aaron",Anaheim Angels,8166667
+"Spiezio, Scott",Anaheim Angels,4250000
+"Washburn, Jarrod",Anaheim Angels,3875000
+"Burkett, John",Boston Red Sox,5500000
+"Damon, Johnny",Boston Red Sox,7500000
+"Embree, Alan",Boston Red Sox,3000000
+"Garciaparra, Nomar",Boston Red Sox,11000000
+"Giambi, Jeremy",Boston Red Sox,2000000
+"Howry, Bobby",Boston Red Sox,1700000
+"Lowe, Derek",Boston Red Sox,3625000
+"Martinez, Pedro",Boston Red Sox,15500000
+"Mendoza, Ramiro",Boston Red Sox,2900000
+"Millar, Kevin",Boston Red Sox,2000000
+"Mueller, Bill",Boston Red Sox,2100000
+"Nixon, Trot",Boston Red Sox,4000000
+"Ortiz, David",Boston Red Sox,1250000
+"Ramirez, Manny",Boston Red Sox,20000000
+"Timlin, Mike",Boston Red Sox,1850000
+"Varitek, Jason",Boston Red Sox,4700000
+"Wakefield, Tim",Boston Red Sox,4000000
+"Walker, Todd",Boston Red Sox,3450000
+"Anderson, Brian",Cleveland Indians,1500000
+"Baez, Danys",Cleveland Indians,5125000
+"Burks, Ellis",Cleveland Indians,7166667
+"Gutierrez, Ricky",Cleveland Indians,3916667
+"Lawton, Matt",Cleveland Indians,6750000
+"Sabathia, CC",Cleveland Indians,1100000
+"Vizquel, Omar",Cleveland Indians,5500000
+"Wickman, Bob",Cleveland Indians,6000000
+"Wohlers, Mark",Cleveland Indians,2600000
+"Catalanotto, Frank",Toronto Blue Jays ,2200000
+"Delgado, Carlos",Toronto Blue Jays ,18700000
+"Escobar, Kelvim",Toronto Blue Jays ,3900000
+"Halladay, Roy",Toronto Blue Jays ,3825000
+"Lidle, Cory",Toronto Blue Jays ,5350000
+"Stewart, Shannon",Toronto Blue Jays ,6200000
+"Batista, Tony",Baltimore Orioles,6400000
+"Belle, Albert",Baltimore Orioles,13000000
+"Conine, Jeff",Baltimore Orioles,4250000
+"Cordova, Marty",Baltimore Orioles,3100000
+"Daal, Omar",Baltimore Orioles,3000000
+"Erickson, Scott",Baltimore Orioles,7030000
+"Fordyce, Brook",Baltimore Orioles,3500000
+"Groom, Buddy",Baltimore Orioles,3000000
+"Hairston, Jerry",Baltimore Orioles,1550000
+"Hentgen, Pat",Baltimore Orioles,1200000
+"Johson, Jason",Baltimore Orioles,2900000
+"Ligtenberg, Kerry",Baltimore Orioles,1200000
+"Mora, Melvin",Baltimore Orioles,1725000
+"Ponson, Sidney",Baltimore Orioles,4250000
+"Roberts, Willis",Baltimore Orioles,3500000
+"Segui, David",Baltimore Orioles,7000000
+"Grieve, Ben",Tampa Bay Devil Rays,5500000
+"Ordonez, Rey",Tampa Bay Devil Rays,6500000
+"Beltran, Carlos",Kansas City Royals,6000000
+"Grimsley, Jason",Kansas City Royals,2000000
+"Ibanez, Raul",Kansas City Royals,3000000
+"Lopez, Albie",Kansas City Royals,1500000
+"Mayne, Brent",Kansas City Royals,2750000
+"Randa, Joe",Kansas City Royals,4500000
+"Sweeney, Mike",Kansas City Royals,11000000
+"Tucker, Michael",Kansas City Royals,2750000
+"Guardado, Eddie",Minnesota Twins,2700000
+"Guzman, Cristian",Minnesota Twins,2525000
+"Hawkins, Latroy",Minnesota Twins,3000000
+"Hunter, Torii",Minnesota Twins,4750000
+"Jones, Jacque",Minnesota Twins,2750000
+"Koskie, Corey",Minnesota Twins,3400000
+"Mays, Joe",Minnesota Twins,4150000
+"Mientkiewicz, Doug",Minnesota Twins,1750000
+"Milton, Eric",Minnesota Twins,6000000
+"Radke, Brad",Minnesota Twins,8750000
+"Reed, Rick",Minnesota Twins,8000000
+"Rogers, Kenny",Minnesota Twins,2000000
+"Colon, Bartolo",Chicago White Sox,8250000
+"Gordon, Tom",Chicago White Sox,1400000
+"Koch, Billy",Chicago White Sox,4250000
+"Konerko, Paul",Chicago White Sox,6250000
+"Lee, Carlos",Chicago White Sox,4200000
+"Ordonez, Magglio",Chicago White Sox,9000000
+"Thomas, Frank",Chicago White Sox,5000000
+"Valentin, Jose",Chicago White Sox,5000000
+"Anderson, Matt",Detroit Tigers,3200000
+"Halter, Shane",Detroit Tigers,2150000
+"Higginson, Bobby",Detroit Tigers,11850000
+"Munson, Eric",Detroit Tigers,1700000
+"Palmer, Dean",Detroit Tigers,8500000
+"Paquette, Craig",Detroit Tigers,2625000
+"Patterson, Danny",Detroit Tigers,2500000
+"Sparks, Steve",Detroit Tigers,4500000
+"Young, Dmitri",Detroit Tigers,6750000
+"Boone, Bret",Seattle Mariners,8000000
+"Cameron, Mike",Seattle Mariners,7416667
+"Cirillo, Jeff",Seattle Mariners,6725000
+"Garcia, Freddy",Seattle Mariners,6875000
+"Guillen, Carlos",Seattle Mariners,2500000
+"Hasegawa, Shigetoshi",Seattle Mariners,1800000
+"Martinez, Edgar",Seattle Mariners,4000000
+"McLemore, Mark",Seattle Mariners,3150000
+"Moyer, Jamie",Seattle Mariners,6500000
+"Nelson, Jeff",Seattle Mariners,3983333
+"Olerud, John",Seattle Mariners,7700000
+"Rhodes, Arthur",Seattle Mariners,3500000
+"Sasaki, Kazuhiro",Seattle Mariners,8000000
+"Suzuki, Ichiro",Seattle Mariners,4666667
+"Wilson, Dan",Seattle Mariners,3500000
+"Winn, Randy",Seattle Mariners,3300000
+"Chavez, Eric",Oakland Athletics,3675000
+"Durazo, Erubiel",Oakland Athletics,1065000
+"Dye, Jermaine",Oakland Athletics,11666667
+"Foulke, Keith",Oakland Athletics,6000000
+"Hatteberg, Scott",Oakland Athletics,1750000
+"Hernandez, Ramon",Oakland Athletics,1887500
+"Hudson, Tim",Oakland Athletics,2700000
+"Long, Terrence",Oakland Athletics,2175000
+"Mecir, Jim",Oakland Athletics,3216667
+"Mulder, Mark",Oakland Athletics,2650000
+"Rincon, Ricardo",Oakland Athletics,1700000
+"Singleton, Chris",Oakland Athletics,1200000
+"Tejada, Miguel",Oakland Athletics,5125000
+"Diaz, Einar",Texas Rangers,1837500
+"Everett, Carl",Texas Rangers,9150000
+"Gonzalez, Juan",Texas Rangers,13000000
+"Greer, Rusty",Texas Rangers,7000000
+"Palmeiro, Rafael",Texas Rangers,9000000
+"Park, Chan Ho",Texas Rangers,13000000
+"Perry, Herbert",Texas Rangers,1300000
+"Powell, Jay",Texas Rangers,3250000
+"Rodriguez, Alex",Texas Rangers,22000000
+"Thomson, John",Texas Rangers,1300000
+"Urbina, Ugueth",Texas Rangers,4500000
+"Valdes, Ismael",Texas Rangers,2500000
+"Van Poppel, Todd",Texas Rangers,2500000
+"Yan, Esteban",Texas Rangers,1500000
+"Zimmerman, Jeff",Texas Rangers,3366667

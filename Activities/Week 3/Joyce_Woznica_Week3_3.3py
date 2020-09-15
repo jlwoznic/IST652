@@ -1,0 +1,58 @@
+# Week 3
+# Week 3 Activities - Dictionary (keys/values)
+# Author: Joyce Woznica
+# Class: IST 652
+# 
+
+# This program reads a file and prints the lines and creates a list of items on the line
+# open the file for reading (in the same directory as the program)
+filePath = '/Users/joycewoznica/Syracuse/IST652/Activities/Week 3/NBA-Attendance-1989.txt'
+# open and read the file
+nbaFile = open(filePath,'r')
+
+# Create a list object with all the lines from the file
+nbaList = []
+for line in nbaFile:
+     textline=line.strip()
+     items = textline.split()
+     nbaList.append(items)
+
+# Get length for averages
+totalTeams = len(nbaList)
+
+# Create a list object for all the attendances in the file
+attendances = []
+for line in nbaList:
+     attendances.append(int(line[1]))
+# Sum all the Attendances
+totalAtt = sum(attendances)
+# Get average
+avgAtt = totalAtt/totalTeams
+# round to a whole number
+print ('Average Attendance was {:.0f}'.format(avgAtt))
+
+# Gather the total price for all tickets looping through List
+team, att, price = nbaList[0]
+# Blank list for Price
+prices = []
+for (team, att, price) in nbaList:
+     prices.append(float(price))
+avgPrice = sum(prices) / len(prices)
+avgPrice = sum(prices) / totalTeams
+# round to 2 decimal points
+print("Average Ticket Price was ${:.2f}".format(avgPrice))
+
+# Gather Highest Attendance and Ticket Price
+maxAtt = max(attendances)
+maxPrice = max(prices)
+
+# Blank list for Teams
+teams = []
+for (team, att, price) in nbaList:
+     teams.append(team)
+
+# Max attendance by Team
+maxTeamAtt=teams[attendances.index(maxAtt)]
+maxTeamPrice = teams[prices.index(maxPrice)]
+print ("Team with highest attendance was " + maxTeamAtt + " with attendance of ", maxAtt)
+print ("Team with the highest price was " + maxTeamPrice + " with a high price of: ${:.2f}".format(maxPrice))
